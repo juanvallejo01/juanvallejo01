@@ -1,66 +1,184 @@
-# Uniswap V3
+<div align="center">
 
-[![Lint](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml)
-[![Tests](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/tests.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/tests.yml)
-[![Fuzz Testing](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/fuzz-testing.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/fuzz-testing.yml)
-[![Mythx](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/mythx.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/mythx.yml)
-[![npm version](https://img.shields.io/npm/v/@uniswap/v3-core/latest.svg)](https://www.npmjs.com/package/@uniswap/v3-core/v/latest)
+# 👾 Juan Camilo Vallejo Oviedo
 
-This repository contains the core smart contracts for the Uniswap V3 Protocol.
-For higher level contracts, see the [uniswap-v3-periphery](https://github.com/Uniswap/uniswap-v3-periphery)
-repository.
+### `Software Engineer` · `Web3 Builder` · `AI Enthusiast`
 
-## Bug bounty
+<p>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+  </a>
+</p>
 
-This repository is subject to the Uniswap V3 bug bounty program, per the terms defined [here](./bug-bounty.md).
+> Building software at the intersection of **Web3, AI & automation.**
 
-## Local deployment
+</div>
 
-In order to deploy this code to a local testnet, you should install the npm package
-`@uniswap/v3-core`
-and import the factory bytecode located at
-`@uniswap/v3-core/artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json`.
-For example:
+---
 
-```typescript
-import {
-  abi as FACTORY_ABI,
-  bytecode as FACTORY_BYTECODE,
-} from '@uniswap/v3-core/artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json'
+## ⚡ About Me
 
-// deploy the bytecode
+```text
+🎓 Systems & Computing Engineering
+💻 Software Developer
+🌐 Web3 / DeFi
+🤖 Artificial Intelligence
+⚙️ Automation & APIs
+🧠 Always building something
 ```
 
-This will ensure that you are testing against the same bytecode that is deployed to
-mainnet and public testnets, and all Uniswap code will correctly interoperate with
-your local deployment.
+I enjoy turning ideas into **real, usable software**.
 
-## Using solidity interfaces
+My main interests are decentralized applications, intelligent systems,
+automation and developer tools.
 
-The Uniswap v3 interfaces are available for import into solidity smart contracts
-via the npm artifact `@uniswap/v3-core`, e.g.:
+Currently exploring the intersection between **AI × Web3 × Software Engineering**.
 
-```solidity
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+---
 
-contract MyContract {
-  IUniswapV3Pool pool;
+## 🧬 Tech Stack
 
-  function doSomethingWithPool() {
-    // pool.swap(...);
-  }
-}
+### Languages
 
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,cs,cpp,js,ts" />
+</p>
+
+### Web & Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,react,nodejs,nextjs,express" />
+</p>
+
+### Databases & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,git,github,vscode" />
+</p>
+
+### Web3
+
+<p>
+<img src="https://skillicons.dev/icons?i=solidity,ethereum" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🌊 SwipeFi
+
+> A Web3 token-swapping project built around decentralized liquidity aggregation.
+
+**Stack:** `Web3` · `1inch` · `Aqua` · `DeFi`
+
+🔗 **Explore the project →**
+`github.com/yourusername/swipefi`
+
+---
+
+### 🔐 Cofre Virtual
+
+> Secure digital vault designed for storing and managing keys and files.
+
+**Stack:** `Python` · `Kivy` · `Algorithms`
+
+🔗 **Explore the project →**
+`github.com/yourusername/cofre-virtual`
+
+---
+
+### 🤖 AI & Automation
+
+> Experiments and projects involving artificial intelligence, automation,
+> APIs and intelligent systems.
+
+**Stack:** `Python` · `APIs` · `Machine Learning`
+
+---
+
+## 🧠 Currently Building
+
+```text
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   🌐 Web3        ███████████████░░░░   75%         │
+│   🤖 AI          ████████████░░░░░░░   60%         │
+│   ⚙️ Automation  █████████████░░░░░░   65%         │
+│   ☁️ Cloud       ████████░░░░░░░░░░░   40%         │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
-## Licensing
+---
 
-The primary license for Uniswap V3 Core is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](./LICENSE). However, some files are dual licensed under `GPL-2.0-or-later`:
+## 📊 GitHub Analytics
 
-- All files in `contracts/interfaces/` may also be licensed under `GPL-2.0-or-later` (as indicated in their SPDX headers), see [`contracts/interfaces/LICENSE`](./contracts/interfaces/LICENSE)
-- Several files in `contracts/libraries/` may also be licensed under `GPL-2.0-or-later` (as indicated in their SPDX headers), see [`contracts/libraries/LICENSE`](contracts/libraries/LICENSE)
+<div align="center">
 
-### Other Exceptions
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 
-- `contracts/libraries/FullMath.sol` is licensed under `MIT` (as indicated in its SPDX header), see [`contracts/libraries/LICENSE_MIT`](contracts/libraries/LICENSE_MIT)
-- All files in `contracts/test` remain unlicensed (as indicated in their SPDX headers).
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+
+</div>
+
+---
+
+## 🐍 Contribution Activity
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+---
+
+## 🌐 Web3 Mindset
+
+```text
+Decentralization
+       ↓
+   Protocols
+       ↓
+   Automation
+       ↓
+ Artificial Intelligence
+       ↓
+   Better Software
+```
+
+> **Build. Experiment. Ship. Repeat.**
+
+---
+
+## 📡 Connect
+
+<div align="center">
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://linkedin.com/in/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>
+
+<a href="https://YOUR_DOMAIN.com">
+<img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
+
+### `01001000 01100101 01101100 01101100 01101111`
+
+**Thanks for visiting my profile. ⚡**
+
+</div>
